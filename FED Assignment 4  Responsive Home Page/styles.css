@@ -1,0 +1,105 @@
+
+nav{
+  background-image:url(https://images.unsplash.com/photo-1628016343559-8a0b7c30a8a7?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+  width: 800px;
+}
+
+li{
+
+  border:3px solid white;
+  border-radius: 30px;
+  padding:10px 25px;
+  color:white;
+}
+
+a{
+  font-size: 1.9rem;
+}
+
+li:hover{
+  transform:scale(1.1);
+  cursor: pointer;
+  transition: 1s;
+}
+
+
+@media screen and (max-width:500px)
+{
+  nav,ul{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+.container{
+  width: 85%;
+  border:2px solid black;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+figure
+{
+  width: 350px;
+  /* border:1px solid black; */
+  margin: 20px;
+  text-align: center;
+  background-color: #EEEEEE;
+  box-shadow: 0px 0px 3px rgb(104,104,104);
+
+}
+figure:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+    transition: 1s;
+}
+
+figure img{
+  height: 250px;
+  width: 100%;
+}
+
+figcaption button{
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+
+}
+
+figcaption button:hover
+{
+  cursor: pointer;
+  color: grey;
+  background-color: black;
+  transition: 2s;
+}
+
+
+.bottom{
+  margin-top: 10px;
+  height: 45px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  color: grey;
+}
