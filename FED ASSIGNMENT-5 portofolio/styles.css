@@ -1,0 +1,52 @@
+body{
+  background-color: black;
+}
+/* body css ends here */
+
+
+.navigation-link{
+  border:2px solid transparent;
+}
+.navigation-link:hover{
+  text-decoration: none;
+  border-bottom: 2px solid #f5ba09;
+  transition: 0.5 ease;
+}
+/* nav css ends here */
+
+
+.main-container{
+  min-height:100vh;
+}
+.main_row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_row img{
+   width: auto;
+   height:100vh;
+}
+/* main container css ends here */
+
+
+#about{
+  background-color:#334756;
+  border-radius:5%;
+}
+
+
+#projects{
+  background-color:#334756;
+  border-radius:5%;
+}
+
+.card{
+  border-bottom: 9px solid #f5ba09;
+}
+
+
+footer{
+  color:#f5ba09;
+
+}
