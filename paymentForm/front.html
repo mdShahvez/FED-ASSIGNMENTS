@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PaymentForm</title>
+  </head>
+  <body>
+
+    <button type="button" name="button">my button</button>
+
+  </body>
+
+
+  <script>
+
+    //let
+    //const
+    //var
+    //these three are used to name a variable
+
+
+    //Camelcase
+    let firstName = "md";
+    //PascalCase
+    let  LastName = "Shahvej"
+    //SnakeCase
+    let middle_name = " sha ";
+
+    const cost = 99;
+
+    var coursename = "Java DS/Algo Coure";
+
+    var cardNum = "1234567890";
+
+    var ispaid = true;
+
+    //declare only
+    var modeOfPayment;
+
+    //bcw we need that mode of payment from user
+
+
+
+
+    let variable = document.querySelector('button');
+    variable.addEventListener('click',inputMsg);
+
+    function inputMsg()
+    {
+      //alert("hello there");
+      let modeOfPayment = prompt("Mode Of Payment?");
+      variable.textContent = firstName + " Successfully bought " + coursename + " Using " + modeOfPayment;
+    }
+
+  </script>
+</html>
